@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.events-container {
+  min-height: 100vh;
+  display: flex;
+}
+.events {
+  background-color: #323f4b;
+  width: 60%;
+  padding: 20px;
+}
+ul {
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+.event-registration {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.events-heading {
+  color: #ffffffff;
+  font-family: 'roboto';
+  margin-left: 10px;
+}
